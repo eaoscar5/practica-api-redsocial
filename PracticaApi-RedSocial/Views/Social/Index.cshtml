@@ -1,0 +1,103 @@
+﻿@model List<MastodonPost>
+@using System.Text.RegularExpressions
+
+@{
+    var keyword = Context.Request.Query["keyword"].ToString();
+    ViewData["Title"] = "Red Social - Mastodon";
+}
+
+<h2>Explorador de publicaciones públicas (Mastodon)</h2>
+
+<form method="get" asp-action="Index" style="margin-bottom:20px;">
+    <input type="text"
+           name="keyword"
+           placeholder="Buscar palabra o hashtag (ej. #AI)"
+           value="@keyword"
+           style="width:250px;" />
+
+    <label style="margin-left:10px;">
+        <input type="checkbox"
+               name="topInteraction"
+               value="true"
+               @(Context.Request.Query["topInteraction"] == "true" ? "checked" : "") />
+        Top interacción
+    </label>
+
+    <button type="submit" style="margin-left:10px;">Buscar</button>
+
+</form>
+
+<hr />
+
+@if (Model == null || !Model.Any())
+{
+    <p>No se encontraron publicaciones.</p>
+}
+else
+{
+    foreach (var post in Model)
+    {
+        string contentToShow = post.Content ?? string.Empty;
+
+        if (!string.IsNullOrWhiteSpace(keyword))
+        {
+            string pattern;
+            // Diferenciar entre hashtag y palabra
+            if (keyword.StartsWith("#"))
+            {
+                // Hashtag exacto
+                pattern = Regex.Escape(keyword);
+            }
+            else
+            {
+                // Palabra completa
+                pattern = $@"\b({Regex.Escape(keyword)})\b";
+            }
+            // Resaltar la palabra o hashtag encontrado
+            contentToShow = Regex.Replace(
+                contentToShow,
+                pattern,
+                "<mark style='background-color:yellow;'>$1</mark>",
+                RegexOptions.IgnoreCase
+            );
+        }
+
+        <div style="
+                    border:1px solid #ddd;
+                    border-radius:8px;
+                    padding:12px;
+                    margin-bottom:15px;
+                    background-color:#fafafa;
+                ">
+            <strong>
+                @(string.IsNullOrWhiteSpace(post.Account.DisplayName)// Si no hay nombre para mostrar, usar el nombre de usuario
+                        ? post.Account.Username
+                        : post.Account.DisplayName)
+            </strong>
+            <span style="color:#777;">(@post.Account.Username)</span>
+
+            <div style="margin-top:8px;">
+                @Html.Raw(contentToShow)
+            </div>
+
+            <div style="margin-top:8px; font-size:0.9em; color:#555;">
+                ❤️ @post.FavouritesCount
+                &nbsp; | &nbsp;
+                🔁 @post.ReblogsCount
+                &nbsp; | &nbsp;
+                💬 @post.RepliesCount
+
+                <span style="margin-left:12px; font-weight:bold; color:#d97706;">
+                    ⭐ @post.EngagementScore
+                </span>
+
+                @if (post.EngagementScore >= 20)
+                {
+                    <span style="margin-left:8px; color:red; font-weight:bold;">
+                        🔥 En tendencia
+                    </span>
+                }
+            </div>
+        </div>
+    }
+}
