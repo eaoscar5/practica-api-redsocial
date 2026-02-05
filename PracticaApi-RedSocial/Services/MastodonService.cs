@@ -12,20 +12,26 @@ namespace PracticaApi_RedSocial.Services
             _httpClient = httpClient;
         }
         // Obtiene publicaciones públicas de Mastodon con paginación(limite de 40 por peticion a la api)
-        public async Task<List<MastodonPost>> GetPublicPostsAsync(int pages = 25)
+        public async Task<List<MastodonPost>> GetPublicPostsAsync(int pages = 5)
         {
             var allPosts = new List<MastodonPost>();
             string? maxId = null;
 
             for (int i = 0; i < pages; i++)
             {
-                var url = "https://mastodon.social/api/v1/timelines/public?limit=40";
+                var url = "https://mastodon.world/api/v1/timelines/public?limit=40";
 
                 if (!string.IsNullOrEmpty(maxId))
                     url += $"&max_id={maxId}";
 
                 var response = await _httpClient.GetAsync(url);
-                if (!response.IsSuccessStatusCode) break;
+                if (!response.IsSuccessStatusCode)
+                {
+                    var error = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine("ERROR Mastodon: " + error);
+                    break;
+                }
+
 
                 var json = await response.Content.ReadAsStringAsync();
 

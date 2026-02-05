@@ -32,3 +32,4 @@ C:\Users\Shiny\source\repos\PracticaApi-RedSocial\PracticaApi-RedSocial\obj\Debu
 C:\Users\Shiny\source\repos\PracticaApi-RedSocial\PracticaApi-RedSocial\obj\Debug\net8.0\PracticaApi-RedSocial.pdb
 C:\Users\Shiny\source\repos\PracticaApi-RedSocial\PracticaApi-RedSocial\obj\Debug\net8.0\PracticaApi-RedSocial.genruntimeconfig.cache
 C:\Users\Shiny\source\repos\PracticaApi-RedSocial\PracticaApi-RedSocial\obj\Debug\net8.0\ref\PracticaApi-RedSocial.dll
+C:\Users\Shiny\source\repos\PracticaApi-RedSocial\PracticaApi-RedSocial\obj\Debug\net8.0\PracticaApi-RedSocial.sourcelink.json

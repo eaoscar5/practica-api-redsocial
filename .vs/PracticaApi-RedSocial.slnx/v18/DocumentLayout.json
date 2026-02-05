@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Shiny\\source\\repos\\PracticaApi-RedSocial\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|c:\\users\\shiny\\source\\repos\\practicaapi-redsocial\\practicaapi-redsocial\\views\\social\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|solutionrelative:practicaapi-redsocial\\views\\social\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|c:\\users\\shiny\\source\\repos\\practicaapi-redsocial\\practicaapi-redsocial\\helpers\\texthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|solutionrelative:practicaapi-redsocial\\helpers\\texthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|c:\\users\\shiny\\source\\repos\\practicaapi-redsocial\\practicaapi-redsocial\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|solutionrelative:practicaapi-redsocial\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|c:\\users\\shiny\\source\\repos\\practicaapi-redsocial\\practicaapi-redsocial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|solutionrelative:practicaapi-redsocial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|c:\\users\\shiny\\source\\repos\\practicaapi-redsocial\\practicaapi-redsocial\\services\\mastodonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|solutionrelative:practicaapi-redsocial\\services\\mastodonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|c:\\users\\shiny\\source\\repos\\practicaapi-redsocial\\practicaapi-redsocial\\helpers\\texthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|solutionrelative:practicaapi-redsocial\\helpers\\texthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|c:\\users\\shiny\\source\\repos\\practicaapi-redsocial\\practicaapi-redsocial\\views\\social\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|solutionrelative:practicaapi-redsocial\\views\\social\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|c:\\users\\shiny\\source\\repos\\practicaapi-redsocial\\practicaapi-redsocial\\controllers\\socialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|solutionrelative:practicaapi-redsocial\\controllers\\socialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|c:\\users\\shiny\\source\\repos\\practicaapi-redsocial\\practicaapi-redsocial\\models\\mastodonpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|solutionrelative:practicaapi-redsocial\\models\\mastodonpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|c:\\users\\shiny\\source\\repos\\practicaapi-redsocial\\practicaapi-redsocial\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE13947F-2687-0183-1A51-2D9FE9AFFD04}|PracticaApi-RedSocial\\PracticaApi-RedSocial.csproj|solutionrelative:practicaapi-redsocial\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +38,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Shiny\\source\\repos\\PracticaApi-RedSocial\\PracticaApi-RedSocial\\Program.cs",
+              "RelativeDocumentMoniker": "PracticaApi-RedSocial\\Program.cs",
+              "ToolTip": "C:\\Users\\Shiny\\source\\repos\\PracticaApi-RedSocial\\PracticaApi-RedSocial\\Program.cs",
+              "RelativeToolTip": "PracticaApi-RedSocial\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T05:24:27.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SocialController.cs",
+              "DocumentMoniker": "C:\\Users\\Shiny\\source\\repos\\PracticaApi-RedSocial\\PracticaApi-RedSocial\\Controllers\\SocialController.cs",
+              "RelativeDocumentMoniker": "PracticaApi-RedSocial\\Controllers\\SocialController.cs",
+              "ToolTip": "C:\\Users\\Shiny\\source\\repos\\PracticaApi-RedSocial\\PracticaApi-RedSocial\\Controllers\\SocialController.cs",
+              "RelativeToolTip": "PracticaApi-RedSocial\\Controllers\\SocialController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T04:46:50.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Shiny\\source\\repos\\PracticaApi-RedSocial\\PracticaApi-RedSocial\\Views\\Social\\Index.cshtml",
               "RelativeDocumentMoniker": "PracticaApi-RedSocial\\Views\\Social\\Index.cshtml",
@@ -38,12 +74,11 @@
               "RelativeToolTip": "PracticaApi-RedSocial\\Views\\Social\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-04T04:55:50.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T04:55:50.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Shiny\\source\\repos\\PracticaApi-RedSocial\\PracticaApi-RedSocial\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PracticaApi-RedSocial\\Controllers\\HomeController.cs",
@@ -51,8 +86,7 @@
               "RelativeToolTip": "PracticaApi-RedSocial\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T04:55:19.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T04:55:19.731Z"
             },
             {
               "$type": "Document",
@@ -62,23 +96,34 @@
               "RelativeDocumentMoniker": "PracticaApi-RedSocial\\Services\\MastodonService.cs",
               "ToolTip": "C:\\Users\\Shiny\\source\\repos\\PracticaApi-RedSocial\\PracticaApi-RedSocial\\Services\\MastodonService.cs",
               "RelativeToolTip": "PracticaApi-RedSocial\\Services\\MastodonService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T04:54:01.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T04:54:01.936Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "TextHelper.cs",
               "DocumentMoniker": "C:\\Users\\Shiny\\source\\repos\\PracticaApi-RedSocial\\PracticaApi-RedSocial\\Helpers\\TextHelper.cs",
               "RelativeDocumentMoniker": "PracticaApi-RedSocial\\Helpers\\TextHelper.cs",
               "ToolTip": "C:\\Users\\Shiny\\source\\repos\\PracticaApi-RedSocial\\PracticaApi-RedSocial\\Helpers\\TextHelper.cs",
               "RelativeToolTip": "PracticaApi-RedSocial\\Helpers\\TextHelper.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowCUAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwCMAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-29T22:36:48.742Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MastodonPost.cs",
+              "DocumentMoniker": "C:\\Users\\Shiny\\source\\repos\\PracticaApi-RedSocial\\PracticaApi-RedSocial\\Models\\MastodonPost.cs",
+              "RelativeDocumentMoniker": "PracticaApi-RedSocial\\Models\\MastodonPost.cs",
+              "ToolTip": "C:\\Users\\Shiny\\source\\repos\\PracticaApi-RedSocial\\PracticaApi-RedSocial\\Models\\MastodonPost.cs",
+              "RelativeToolTip": "PracticaApi-RedSocial\\Models\\MastodonPost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T04:48:42.067Z"
             }
           ]
         }

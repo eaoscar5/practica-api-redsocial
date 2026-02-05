@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PracticaApi-RedSocial")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e5dbb0adaed4918d12a81291e6c04d71f23237f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PracticaApi-RedSocial")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PracticaApi-RedSocial")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
